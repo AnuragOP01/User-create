@@ -1,0 +1,15 @@
+.input{
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+input{
+    font-size: 30px;
+    margin-top: 45px;
+    width: 30rem;
+}
+
+.input h1{
+    font-size: 3rem;
+    color: orangered;
+}

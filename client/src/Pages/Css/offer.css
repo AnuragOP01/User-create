@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #a6e9e9f2;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: black;
+  }
+  .header {
+      background-color: white;
+  }
+  
+    img{
+      height: 120px;
+      width: 400px;
+    }
+  
+    .data h1,h3 {
+      margin: 1em auto;
+      text-align: center;
+    }
+    .data h3{
+      color: rgb(18, 89, 221);
+    }
+  
+    form {
+      width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+  
+    fieldset {
+      border: none;
+      border-bottom: 3px solid #3b3b4f;
+    }
+  
+    fieldset:last-of-type {
+      border-bottom: none;
+    } 
+  
+    label {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+  
+    input {
+      margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 1.5em;
+    background-color:white;
+    border: 2px solid #0a0a23;
+    color: #000;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: none;
+    padding: 3px 3px 3px 6px;
+    }
+  
+    input::placeholder {
+      color: #694F8E;
+    }
+  
+  button {
+     display: block;
+      margin: auto;
+      border: none;
+      width:300px;
+      height: 50px;
+      border-radius: 10px;
+      background-color: rgb(102, 138, 238);
+      box-shadow: 10px 5px 5px rgb(7, 36, 168);
+      font-size: 1.25rem;
+     }
+  
+    button:hover {
+      cursor: pointer;
+      background-color: rgb(95, 177, 209);
+      color: #ffffff;
+      box-shadow: 10px 5px 5px rgb(5, 129, 179);
+    }
+  
+    .content {
+      width: 100%;
+       max-width: 800px;
+       min-width: 300px;
+       margin: 0 auto; 
+       margin-top: 50px;
+       padding: 1rem;
+       border: 4px solid rgb(105, 186, 218);
+       background-image: url(cer.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+     }
+   .content p{
+    text-align: left;
+   }
+  .content .header{
+    background-color: transparent;
+  }
+  
+   .footer {
+    margin-top: 40px;
+      height: 100px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  text-align: center;
+   }
+   .end-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+   }
